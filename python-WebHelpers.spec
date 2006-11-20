@@ -1,6 +1,6 @@
 %define 	module	        webhelpers
 %define     fname           WebHelpers
-%define     python_version  2.4
+%define     python_version  2.5
 Summary:	Web Helpers
 Name:		python-%{fname}
 Version:	0.2.2
