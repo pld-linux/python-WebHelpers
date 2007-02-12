@@ -1,6 +1,6 @@
 %define		fname		WebHelpers
 Summary:	Web Helpers
-Summary(pl):	Web Helpers - funkcje pomocniczne dla aplikacji WWW
+Summary(pl.UTF-8):   Web Helpers - funkcje pomocniczne dla aplikacji WWW
 Name:		python-%{fname}
 Version:	0.2.2
 Release:	0.1
@@ -24,13 +24,13 @@ One of the sub-sections of Web Helpers contains a full port of the
 template helpers that are provided by Ruby on Rails with slight
 adaptations on occasion to accomodate for Python.
 
-%description -l pl
-Web Helpers to biblioteka funkcji pomocniczych maj±cych u³atwiæ
-tworzenie szablonów w aplikacjach WWW.
+%description -l pl.UTF-8
+Web Helpers to biblioteka funkcji pomocniczych majÄ…cych uÅ‚atwiÄ‡
+tworzenie szablonÃ³w w aplikacjach WWW.
 
-Jedna z czê¶ci Web Helpers zawiera pe³ny port funkcji pomocniczych dla
-szablonów dostarcznych przez Ruby on Rails z nieznacznymi adaptacjami
-pod k±tem Pythona.
+Jedna z czÄ™Å›ci Web Helpers zawiera peÅ‚ny port funkcji pomocniczych dla
+szablonÃ³w dostarcznych przez Ruby on Rails z nieznacznymi adaptacjami
+pod kÄ…tem Pythona.
 
 %prep
 %setup -qn %{fname}-%{version}
