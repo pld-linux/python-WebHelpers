@@ -1,6 +1,6 @@
 %define		fname		WebHelpers
 Summary:	Web Helpers
-Summary(pl.UTF-8):   Web Helpers - funkcje pomocniczne dla aplikacji WWW
+Summary(pl.UTF-8):	Web Helpers - funkcje pomocniczne dla aplikacji WWW
 Name:		python-%{fname}
 Version:	0.2.2
 Release:	0.1
