@@ -2,16 +2,17 @@
 Summary:	Web Helpers
 Summary(pl.UTF-8):	Web Helpers - funkcje pomocniczne dla aplikacji WWW
 Name:		python-%{fname}
-Version:	0.2.2
+Version:	0.3.2
 Release:	0.1
 License:	Pylons
 Group:		Libraries/Python
 Source0:	http://cheeseshop.python.org/packages/source/W/WebHelpers/%{fname}-%{version}.tar.gz
-# Source0-md5:	c0d82bbf6126a641e01c73a3696ddd2d
+# Source0-md5:	c942215c304eecdee3cb8caadd206f13
 URL:		http://pylonshq.com/WebHelpers/
-BuildRequires:	python >= 1:2.5
-BuildRequires:	python-setuptools
+BuildRequires:	python >= 1:2.4
+BuildRequires:	python-setuptools >= 0.6-0.c7.1
 BuildRequires:	rpm-pythonprov
+BuildRequires:	rpmbuild(macros) >= 1.219
 %pyrequires_eq	python-modules
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -45,7 +46,7 @@ python setup.py install \
 	--root=$RPM_BUILD_ROOT \
 	--optimize=2
 
-find $RPM_BUILD_ROOT%{py_sitescriptdir} -name \*.py -exec rm {} \;
+%py_postclean
 
 %clean
 rm -rf $RPM_BUILD_ROOT
