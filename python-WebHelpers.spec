@@ -3,7 +3,7 @@ Summary:	Web Helpers
 Summary(pl.UTF-8):	Web Helpers - funkcje pomocniczne dla aplikacji WWW
 Name:		python-%{fname}
 Version:	0.6.4
-Release:	1
+Release:	2
 License:	Pylons
 Group:		Libraries/Python
 Source0:	http://cheeseshop.python.org/packages/source/W/WebHelpers/%{fname}-%{version}.tar.gz
