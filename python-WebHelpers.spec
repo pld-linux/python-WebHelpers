@@ -12,7 +12,7 @@ URL:		http://pylonshq.com/WebHelpers/
 BuildRequires:	python >= 1:2.4
 BuildRequires:	python-setuptools >= 0.6-0.c7.1
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 %pyrequires_eq	python-modules
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
