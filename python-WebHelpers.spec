@@ -10,10 +10,10 @@ Source0:	http://cheeseshop.python.org/packages/source/W/WebHelpers/%{fname}-%{ve
 # Source0-md5:	d11ed399068aac9368281497d40a4436
 URL:		http://pylonshq.com/WebHelpers/
 BuildRequires:	python >= 1:2.4
-BuildRequires:	python-setuptools >= 0.6-0.c7.1
+BuildRequires:	python-setuptools >= 1:0.6-0.c7.1
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.710
-%pyrequires_eq	python-modules
+BuildRequires:	rpmbuild(macros) >= 1.714
+Requires:	python-modules >= 1:2.4
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
