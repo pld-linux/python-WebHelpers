@@ -6,7 +6,8 @@ Version:	0.6.4
 Release:	3
 License:	Pylons
 Group:		Libraries/Python
-Source0:	http://cheeseshop.python.org/packages/source/W/WebHelpers/%{fname}-%{version}.tar.gz
+#Source0Download: https://pypi.org/simple/webhelpers/
+Source0:	https://files.pythonhosted.org/packages/source/W/WebHelpers/%{fname}-%{version}.tar.gz
 # Source0-md5:	d11ed399068aac9368281497d40a4436
 URL:		http://pylonshq.com/WebHelpers/
 BuildRequires:	python >= 1:2.4
